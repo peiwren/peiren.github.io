@@ -1,0 +1,66 @@
+
+body{background-color: grey;}
+
+header,nav,footer{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: white;
+}
+
+#container{
+    width:660px;
+    /*postion a container in the middle of he screen */
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+
+#container2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#container3{
+    text-align: center;
+    vertical-align: middle;
+    background:grey; width:90%;
+    height:86px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+section, aside{
+    width:49.3%;
+    float:left;
+    text-align: center;
+    height: 150px;
+}
+
+section{background:white;margin-right:8px;}
+
+aside{background:white;}
+
+article{
+    width:300px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content1{
+    background: grey;
+    text-align: center; 
+    vertical-align: middle;
+    width:80%;padding: 3px;
+}
+
+.content2{background: white;
+    margin-bottom: 5px;
+    width:80%;text-align: center;
+    vertical-align: middle;
+    margin-right: 25%;
+    margin-left: 5%;
+}
