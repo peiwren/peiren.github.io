@@ -1,6 +1,5 @@
 
 body{
-    width: 960px;
     background-color: #777;
     font-size: 18px;
     color: #777;
@@ -20,7 +19,7 @@ header,nav,footer{
 }
 
 #container{
-    width:660px;
+    width:960px;
     /*postion a container in the middle of he screen */
     margin-right: auto;
     margin-left: auto;
@@ -37,21 +36,19 @@ header,nav,footer{
     text-align: center;
     vertical-align: middle;
     background:grey; width:90%;
-    height:169px;
+    height:184px;
     margin-right: auto;
     margin-left: auto;  
 }
 
-section{
-    width:56%;
-}
-
 aside{
-    width:40.9%;
+    width:442px;
     margin-left: 1.5%;
+    background:#ebebeb;
 }
 
 section{
+    width:495px;
     background:#ebebeb;
     margin-right:8px;
 }
@@ -59,14 +56,11 @@ section{
 section, aside{
     float:left;
     text-align: center;
-    height: 243px;
+    height: 263px;
 }
 
-
-aside{background:#ebebeb;}
-
 article{
-    width:300px;
+    width:383px;
     text-align: center;
     vertical-align: middle;
     margin-right: auto;
